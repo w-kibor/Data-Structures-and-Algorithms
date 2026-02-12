@@ -1,3 +1,5 @@
+"""Problem: Given two integers, output their LCM."""
+
 import math
 import sys
 

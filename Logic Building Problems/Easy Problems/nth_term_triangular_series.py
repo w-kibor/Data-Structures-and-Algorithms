@@ -1,3 +1,5 @@
+"""Problem: Given n, output the n-th triangular number."""
+
 import sys
 
 

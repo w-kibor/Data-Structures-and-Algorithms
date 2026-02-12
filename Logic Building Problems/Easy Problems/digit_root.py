@@ -1,3 +1,5 @@
+"""Problem: Given an integer, compute its digital root."""
+
 import sys
 
 

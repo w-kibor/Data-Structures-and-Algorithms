@@ -1,3 +1,5 @@
+"""Problem: Given an integer, determine whether it is a palindrome."""
+
 import sys
 
 

@@ -1,3 +1,5 @@
+"""Problem: Given three side lengths, check if they form a valid triangle."""
+
 import sys
 
 

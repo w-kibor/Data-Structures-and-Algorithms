@@ -1,3 +1,5 @@
+"""Problem: Given two axis-aligned rectangles, determine if they overlap."""
+
 import sys
 
 

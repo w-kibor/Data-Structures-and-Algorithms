@@ -1,3 +1,5 @@
+"""Problem: Given a date, output the corresponding day of the week."""
+
 import datetime
 import sys
 

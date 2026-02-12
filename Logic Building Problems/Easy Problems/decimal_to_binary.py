@@ -1,3 +1,5 @@
+"""Problem: Convert a decimal integer to its binary representation."""
+
 import sys
 
 

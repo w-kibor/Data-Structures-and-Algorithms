@@ -1,3 +1,5 @@
+"""Problem: Determine whether the given integer is a power of two."""
+
 import sys
 
 

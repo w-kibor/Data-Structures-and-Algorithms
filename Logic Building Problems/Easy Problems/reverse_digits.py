@@ -1,3 +1,5 @@
+"""Problem: Given an integer, output the number with its digits reversed."""
+
 import sys
 
 

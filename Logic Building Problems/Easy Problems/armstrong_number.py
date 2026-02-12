@@ -1,3 +1,5 @@
+"""Problem: Given an integer, determine whether it is an Armstrong number."""
+
 import sys
 
 

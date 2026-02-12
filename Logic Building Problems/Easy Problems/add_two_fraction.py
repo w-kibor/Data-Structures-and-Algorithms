@@ -1,3 +1,5 @@
+"""Problem: Add two fractions and output the result in lowest terms."""
+
 import math
 import sys
 

@@ -1,3 +1,5 @@
+"""Problem: Given an integer, output the sum of its digits."""
+
 import sys
 
 

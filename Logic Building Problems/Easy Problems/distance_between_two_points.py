@@ -1,3 +1,5 @@
+"""Problem: Given two points, compute the Euclidean distance between them."""
+
 import math
 import sys
 

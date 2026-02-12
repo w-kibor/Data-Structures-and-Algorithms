@@ -1,3 +1,5 @@
+"""Problem: Given a non-negative integer, compute its factorial."""
+
 import sys
 
 

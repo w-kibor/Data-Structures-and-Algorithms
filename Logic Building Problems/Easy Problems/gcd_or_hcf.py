@@ -1,3 +1,5 @@
+"""Problem: Given two integers, output their GCD (HCF)."""
+
 import math
 import sys
 

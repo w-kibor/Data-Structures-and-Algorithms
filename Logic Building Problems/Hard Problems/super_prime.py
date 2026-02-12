@@ -1,4 +1,4 @@
-"""Problem: Given an integer, determine whether it is prime."""
+"""Problem: Determine if a number is super prime (prime and digit-sum prime)."""
 
 import sys
 
@@ -18,12 +18,26 @@ def is_prime(n: int) -> bool:
     return True
 
 
+def digit_sum(n: int) -> int:
+    total = 0
+    n = abs(n)
+    while n > 0:
+        total += n % 10
+        n //= 10
+    return total
+
+
+def is_super_prime(n: int) -> bool:
+    """Super prime: n is prime and its digit sum is also prime."""
+    return is_prime(n) and is_prime(digit_sum(n))
+
+
 def main() -> None:
     data = sys.stdin.read().strip().split()
     if not data:
         return
     n = int(data[0])
-    print("true" if is_prime(n) else "false")
+    print("true" if is_super_prime(n) else "false")
 
 
 if __name__ == "__main__":

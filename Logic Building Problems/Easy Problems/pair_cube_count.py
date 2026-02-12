@@ -1,3 +1,5 @@
+"""Problem: Count unordered pairs (a, b) with a^3 + b^3 = n and a <= b."""
+
 import sys
 
 

@@ -29,3 +29,16 @@ has_ticket=False
 if age >= 18 or has_ticket:
     print("You can enter the concert.")
 else:    print("You cannot enter the concert.")
+
+#not operator: returns True if the condition is false
+#The example problem we will solve is this imagine getting into a concert were we will have to satisfy the condition of not being under 18 to enter the concert
+#Condition: You need to not be under 18 to enter the concert
+#setting the variable
+
+age=18
+
+#check the logic or the condition
+if not age < 18:
+    print("You can enter the concert.")
+else:    print("You cannot enter the concert.")
+

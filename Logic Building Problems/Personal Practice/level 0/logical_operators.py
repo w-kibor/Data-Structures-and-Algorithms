@@ -42,3 +42,19 @@ if not age < 18:
     print("You can enter the concert.")
 else:    print("You cannot enter the concert.")
 
+#Real world scenario with multiple logical opreators
+#ATM machine example
+#Condition 1: You need to have enough balance to withdraw money
+#Condition 2: You need to have the correct pin to withdraw money
+#Condition 3: You need to be an admin where you dont need the pin nor balance check
+
+#setting the variables
+balance = 500
+withdrawal_amount = 100
+pin_correct = True
+is_admin = False
+
+#check the logic or the condition
+if (balance >= withdrawal_amount and pin_correct) or is_admin:
+    print("You can withdraw money.")
+else:    print("You cannot withdraw money.")

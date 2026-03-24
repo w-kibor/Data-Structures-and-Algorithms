@@ -13,3 +13,11 @@ class Solution:
         return True  
 
 print(Solution().isPalindrome(121))
+
+# using slicing
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        s=str(x)
+        return s==s[::-1] #type: ignore
+
+print(Solution().isPalindrome(121))
